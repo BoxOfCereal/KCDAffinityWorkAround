@@ -29,6 +29,7 @@ namespace ConsoleApp1
             //program.GetMaxedCpu();
 
             //program.GetPerformanceCategories();
+            Environment.Exit(0);
         }
 
         public void GetCpuInfo()
@@ -69,7 +70,9 @@ namespace ConsoleApp1
             Console.WriteLine("*********************************");
 
             Console.WriteLine("Insert your selected processors, separated by comma (first CPU index is 1):");
-            var input = Console.ReadLine();
+            //I wanted to make it easy for people to just double click and run it, otherwise you can manually enter in the cpus
+            //var input = Console.ReadLine();
+            var input = "1";
             Console.WriteLine("*********************************");
             var usedProcessors = input.Split(',');
 
@@ -91,7 +94,7 @@ namespace ConsoleApp1
             //{
             //     
             //}
-            newAffinity = 15;
+            newAffinity = Convert.ToInt16(Math.Pow(2.00,numOfProcessors) - 1);
             Process.GetProcessesByName(processName)[0].ProcessorAffinity = (System.IntPtr)newAffinity;
             Console.WriteLine("Current processor affinity is {0}", Process.GetProcessesByName(processName)[0].ProcessorAffinity);
 
@@ -125,6 +128,7 @@ namespace ConsoleApp1
             return 0;
         }
 
+        //gets a list of performance categories for use with PerformanceCounter class
         public string[] GetPerformanceCategories()
         {
             string machineName = Environment.MachineName;

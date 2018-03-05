@@ -4,3 +4,8 @@ C:\Users\nole\source\repos\KCDWorkAround\KCDWorkAround\obj\Debug\KCDWorkAround.c
 C:\Users\nole\source\repos\KCDWorkAround\KCDWorkAround\obj\Debug\KCDWorkAround.csproj.CoreCompileInputs.cache
 C:\Users\nole\source\repos\KCDWorkAround\KCDWorkAround\obj\Debug\KCDWorkAround.exe
 C:\Users\nole\source\repos\KCDWorkAround\KCDWorkAround\obj\Debug\KCDWorkAround.pdb
+C:\Users\nole\source\repos\ConsoleApp1\KCDAffinityWorkAround\KCDWorkAround\KCDWorkAround\bin\Debug\KCDWorkAround.exe
+C:\Users\nole\source\repos\ConsoleApp1\KCDAffinityWorkAround\KCDWorkAround\KCDWorkAround\bin\Debug\KCDWorkAround.pdb
+C:\Users\nole\source\repos\ConsoleApp1\KCDAffinityWorkAround\KCDWorkAround\KCDWorkAround\obj\Debug\KCDWorkAround.csproj.CoreCompileInputs.cache
+C:\Users\nole\source\repos\ConsoleApp1\KCDAffinityWorkAround\KCDWorkAround\KCDWorkAround\obj\Debug\KCDWorkAround.exe
+C:\Users\nole\source\repos\ConsoleApp1\KCDAffinityWorkAround\KCDWorkAround\KCDWorkAround\obj\Debug\KCDWorkAround.pdb
